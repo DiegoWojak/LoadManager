@@ -2,6 +2,7 @@
 /node_modules
 /.php
 /.tif
+/.tga
 */.meta
 */*.meta
 /Assets/Art/Model/Off(DontLoadToGit)
