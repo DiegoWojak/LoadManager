@@ -1,12 +1,11 @@
 ﻿#if UNITY_EDITOR
-using Assets.Source.Utilities.Helpers.Gizmo;
+
 #endif
 
 using System;
 using System.Collections;
 using System.Collections.Generic;
 
-using TMPro;
 using UnityEngine;
 
 namespace Assets.Source
@@ -31,7 +30,8 @@ namespace Assets.Source
         private void OnEnable()
         {
             _stacks = new Queue<IInitiable>();
-            for (int i = 0; i < Dependencies.Count; i++) {
+            for (int i = 0; i < Dependencies.Count; i++)
+            {
                 _stacks.Enqueue(Dependencies[i] as IInitiable);
             }
             isEverythingLoaded = false;
@@ -46,14 +46,16 @@ namespace Assets.Source
                 DontDestroyOnLoad(gameObject);
                 return;
             }
-            else { 
+            else
+            {
                 Destroy(gameObject);
             }
 
         }
 
         private string messasge = string.Empty;
-        private IEnumerator CoroutineLoad() {
+        private IEnumerator CoroutineLoad()
+        {
 
             while (_stacks.Count > 0)
             {
@@ -71,13 +73,11 @@ namespace Assets.Source
                     yield return new WaitForSeconds(0.5f);
                 }
 #if UNITY_EDITOR
-                messasge = DebugUtils.GetMessageFormat($"Loaded  <-- {(loader as MonoBehaviour).name}", 1);
                 Debug.Log(messasge);
 #endif
                 yield return new WaitForSeconds(0.5f);
             }
 #if UNITY_EDITOR
-            messasge = DebugUtils.GetMessageFormat($"Everything Loaded", 1);
             Debug.Log(messasge);
 #endif
             loadingVisualSetup.OnLoaded();
@@ -86,11 +86,13 @@ namespace Assets.Source
         }
 
 
-        public void EnqueueProcess(Action Pre, IEnumerator ProcessToLoad, Action Post) {
-            StartCoroutine(MainEnumator(Pre,ProcessToLoad,Post));
+        public void EnqueueProcess(Action Pre, IEnumerator ProcessToLoad, Action Post)
+        {
+            StartCoroutine(MainEnumator(Pre, ProcessToLoad, Post));
         }
 
-        private IEnumerator MainEnumator(Action pre, IEnumerator _pr , Action Post) { 
+        private IEnumerator MainEnumator(Action pre, IEnumerator _pr, Action Post)
+        {
             loadingVisualSetup.LoadingPage.SetActive(true);
             pre?.Invoke();
 
@@ -108,24 +110,27 @@ namespace Assets.Source
         }
     }
 
-    
+
 
     [Serializable]
-    public struct LoadingVisualSetup {
-        public TextMeshProUGUI Text;
+    public class LoadingVisualSetup
+    {
+        
         public GameObject LoadingPage;
 
-        public void SetText(int stackSize, int totalSize) {
-            float percent = ((float)(totalSize-stackSize) / totalSize * 100);
-            Text.text = $"Loading: {percent:F0}%";
-        }
-
-        public void SetText(float  percent)
+        public void SetText(int stackSize, int totalSize)
         {
-            Text.text = $"Loading: {percent:F0}%";
+            float percent = ((float)(totalSize - stackSize) / totalSize * 100);
+            Debug.Log($"Loading: {percent:F0}%");
         }
 
-        public void OnLoaded() { 
+        public void SetText(float percent)
+        {
+            Debug.Log($"Loading: {percent:F0}%");
+        }
+
+        public void OnLoaded()
+        {
             LoadingPage.SetActive(false);
         }
     }

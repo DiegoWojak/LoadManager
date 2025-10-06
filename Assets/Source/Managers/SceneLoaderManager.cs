@@ -66,8 +66,8 @@ namespace Assets.Source.Managers
         LoaderManager.Instance.EnqueueProcess(
             Pre: null,
             ProcessToLoad: LoadSceneAsync(SceneTarget,
-                post: GameStarterManager.Instance.PreStartGame),
-            Post: GameStarterManager.Instance.StartGame);
+                post: null),
+            Post: null);
         }
 
         [ContextMenu("Second Level")]
@@ -76,8 +76,8 @@ namespace Assets.Source.Managers
             LoaderManager.Instance.EnqueueProcess(
                 Pre: null,
                 ProcessToLoad: LoadSceneAsync(SceneTarget,
-                    post: GameStarterManager.Instance.PreStartGame),
-                Post: GameStarterManager.Instance.StartGame);
+                    post: null),
+                Post: null);
         }
 
 
@@ -89,8 +89,8 @@ namespace Assets.Source.Managers
                 LoaderManager.Instance.EnqueueProcess(
                 Pre: null,
                 ProcessToLoad: LoadSceneAsync(SceneTarget,
-                    post: GameStarterManager.Instance.PreStartGame),
-                Post: GameStarterManager.Instance.StartGame);
+                    post: null),
+                Post: null);
             }
             else {
                 LoaderManager.Instance.EnqueueProcess(

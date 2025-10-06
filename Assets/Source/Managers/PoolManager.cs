@@ -1,5 +1,4 @@
 ﻿
-using Assets.Source.Utilities.Helpers.Gizmo;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +8,7 @@ namespace Assets.Source.Managers
     {
         [System.Serializable]
         public struct PoolData {
-            public InventoryItemData inventoryItemData;
+            public Object inventoryItemData;
             public Transform poolindex;
             public int initialPoolSize;
 
@@ -26,7 +25,7 @@ namespace Assets.Source.Managers
 
         [Space(10)]
         [Header("InventoryItemData Elements")]
-        private Dictionary<InventoryItemData, Queue<GameObject>> InventoryItemsPool = new Dictionary<InventoryItemData, Queue<GameObject>>();
+        private Dictionary<Object, Queue<GameObject>> InventoryItemsPool = new Dictionary<Object, Queue<GameObject>>();
 
         [SerializeField]
         private PoolData GlassesRGB;
@@ -132,28 +131,11 @@ namespace Assets.Source.Managers
             _DashPool.Enqueue(obj);
         }
 
-        public GameObject GetInventoryGameobjectPool(InventoryItemData _inventoryItemData) {
-            if (!InventoryItemsPool.ContainsKey(_inventoryItemData)) {
-                string msg = $"There is no Gameobject with {_inventoryItemData.name} name, Create one Before";
-                Debug.Log(DebugUtils.GetMessageFormat(msg,0));
-                return null;
-            }
-
-            if (InventoryItemsPool[_inventoryItemData].Count > 0)
-            {
-                var _go = InventoryItemsPool[_inventoryItemData].Dequeue();
-                _go.SetActive(true);
-                _go.transform.SetParent(null);
-                return _go;
-            }
-            else 
-            { 
-                GameObject _go = Instantiate(_inventoryItemData.prefab_Game);            
-                return _go;
-            }
+        public GameObject GetInventoryGameobjectPool(Object _inventoryItemData) {
+            throw new System.NotImplementedException();
         }
 
-        public void ReturnInventoryGo(InventoryItemData _inventoryItemData, GameObject go)
+        public void ReturnInventoryGo(Object _inventoryItemData, GameObject go)
         {
             go.SetActive(false);
             go.gameObject.name = "pooled";
@@ -198,7 +180,7 @@ namespace Assets.Source.Managers
             
             for (int i = 0; i < _poolData.initialPoolSize; i++)
             {
-                GameObject _go = Instantiate(_poolData.inventoryItemData.prefab_Game, _poolData.poolindex);
+                GameObject _go = Instantiate(_poolData.inventoryItemData as GameObject, _poolData.poolindex);
                 _go.SetActive(false);
                 InventoryItemsPool[_poolData.inventoryItemData].Enqueue(_go);
             }

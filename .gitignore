@@ -5,8 +5,19 @@
 /.tga
 */.meta
 */*.meta
-/Assets/Art/Model/Off(DontLoadToGit)
-Assets/Art/Textures/Skybox(DontLoadToGit)
+*/*.cs.meta
+*.csproj
+/.vscode/*
+
+# Unity
+/[Ll]ibrary/*
+/[Tt]emp/* 
+/[Oo]bj/*
+/[Bb]uild/*
+/[Ll]ogs/*
+/[Pp]ackages/*
+/[Uuser]serSettings/*
+[Aa]ssets/Invector-3rdPersonController/*
 
 /[Aa]ssets/Plugins/FMOD/platforms/html5/*
 # Never ignore DLLs in the FMOD subfolder.
