@@ -1,0 +1,273 @@
+{
+    "name": "Attacks",
+    "states": [],
+    "subStateMachines": [
+        {
+            "name": "StrongAttacks",
+            "states": [],
+            "subStateMachines": [
+                {
+                    "name": "Unarmed",
+                    "states": [
+                        {
+                            "name": "A",
+                            "motion": "StrongAttack_PunchA",
+                            "speed": 0.8999999761581421,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": [
+                                "B"
+                            ]
+                        },
+                        {
+                            "name": "B",
+                            "motion": "StrongAttack_PunchB",
+                            "speed": 0.800000011920929,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": [
+                                "C"
+                            ]
+                        },
+                        {
+                            "name": "C",
+                            "motion": "StrongAttack_PunchC",
+                            "speed": 0.800000011920929,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": []
+                        }
+                    ],
+                    "subStateMachines": []
+                },
+                {
+                    "name": "SwordAttack",
+                    "states": [
+                        {
+                            "name": "A",
+                            "motion": "",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": [
+                                "B"
+                            ]
+                        },
+                        {
+                            "name": "B",
+                            "motion": "",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": [
+                                "C"
+                            ]
+                        },
+                        {
+                            "name": "C",
+                            "motion": "",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": []
+                        }
+                    ],
+                    "subStateMachines": []
+                }
+            ]
+        },
+        {
+            "name": "WeakAttacks",
+            "states": [],
+            "subStateMachines": [
+                {
+                    "name": "Unarmed",
+                    "states": [
+                        {
+                            "name": "A",
+                            "motion": "WeakAttack_UnarmedA_v3",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState",
+                                "vAnimatorTagAdvanced"
+                            ],
+                            "transitions": [
+                                "B"
+                            ]
+                        },
+                        {
+                            "name": "B",
+                            "motion": "WeakAttack_UnarmedB_v2",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState",
+                                "vAnimatorTagAdvanced"
+                            ],
+                            "transitions": [
+                                "C"
+                            ]
+                        },
+                        {
+                            "name": "C",
+                            "motion": "WeakAttack_UnarmedC",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState",
+                                "vAnimatorTagAdvanced"
+                            ],
+                            "transitions": []
+                        }
+                    ],
+                    "subStateMachines": []
+                },
+                {
+                    "name": "2HandWeaponAttack",
+                    "states": [
+                        {
+                            "name": "A",
+                            "motion": "Attack2Hand_A",
+                            "speed": 0.800000011920929,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": [
+                                "B"
+                            ]
+                        },
+                        {
+                            "name": "B",
+                            "motion": "Attack2Hand_B",
+                            "speed": 0.800000011920929,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": [
+                                "C"
+                            ]
+                        },
+                        {
+                            "name": "C",
+                            "motion": "Attack2Hand_C",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": []
+                        }
+                    ],
+                    "subStateMachines": []
+                },
+                {
+                    "name": "SwordRandomAttack",
+                    "states": [
+                        {
+                            "name": "A",
+                            "motion": "WeakAttack_SwordA",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": []
+                        },
+                        {
+                            "name": "B",
+                            "motion": "WeakAttack_SwordB",
+                            "speed": 1.5,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": []
+                        },
+                        {
+                            "name": "C",
+                            "motion": "WeakAttack_SwordC",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState"
+                            ],
+                            "transitions": []
+                        }
+                    ],
+                    "subStateMachines": []
+                },
+                {
+                    "name": "SwordAttack",
+                    "states": [
+                        {
+                            "name": "A",
+                            "motion": "WeakAttack_SwordA",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState",
+                                "vAnimatorTagAdvanced"
+                            ],
+                            "transitions": [
+                                "B"
+                            ]
+                        },
+                        {
+                            "name": "B",
+                            "motion": "WeakAttack_SwordB",
+                            "speed": 0.5,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState",
+                                "vAnimatorTagAdvanced"
+                            ],
+                            "transitions": [
+                                "C"
+                            ]
+                        },
+                        {
+                            "name": "C",
+                            "motion": "WeakAttack_SwordC",
+                            "speed": 1.0,
+                            "behaviours": [
+                                "vMeleeAttackControl",
+                                "vTriggerSoundByState",
+                                "vAnimatorTagAdvanced"
+                            ],
+                            "transitions": []
+                        }
+                    ],
+                    "subStateMachines": []
+                }
+            ]
+        },
+        {
+            "name": "Null",
+            "states": [
+                {
+                    "name": "Null",
+                    "motion": "",
+                    "speed": 1.0,
+                    "behaviours": [],
+                    "transitions": []
+                }
+            ],
+            "subStateMachines": []
+        }
+    ]
+}

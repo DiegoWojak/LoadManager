@@ -1,4 +1,1482 @@
 {
+    "clips": [
+        {
+            "frameRate": 30.0,
+            "length": 1.6666666269302369,
+            "name": "NewRollv2",
+            "segments": [
+                {
+                    "duration": 1.6666666269302369,
+                    "endFrame": 49,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.0416667461395264,
+            "name": "Pick_Down",
+            "segments": [
+                {
+                    "duration": 1.0416667461395264,
+                    "endFrame": 25,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.0833333730697632,
+            "name": "Pick_Mid",
+            "segments": [
+                {
+                    "duration": 1.0833333730697632,
+                    "endFrame": 26,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.0833333730697632,
+            "name": "Pick_Up",
+            "segments": [
+                {
+                    "duration": 1.0833333730697632,
+                    "endFrame": 26,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 3.0,
+            "name": "OpenChest",
+            "segments": [
+                {
+                    "duration": 3.0,
+                    "endFrame": 72,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.25,
+            "name": "SlideForwardDown",
+            "segments": [
+                {
+                    "duration": 1.25,
+                    "endFrame": 30,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.5,
+            "name": "Pass_Card",
+            "segments": [
+                {
+                    "duration": 1.5,
+                    "endFrame": 36,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.5,
+            "name": "Put_Card_Full",
+            "segments": [
+                {
+                    "duration": 1.5,
+                    "endFrame": 36,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.9666666984558106,
+            "name": "Press_Lever",
+            "segments": [
+                {
+                    "duration": 0.9666666984558106,
+                    "endFrame": 23,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.8333333730697632,
+            "name": "Put/Remove_Card",
+            "segments": [
+                {
+                    "duration": 0.8333333730697632,
+                    "endFrame": 20,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.8333333730697632,
+            "name": "Put/Remove_Card",
+            "segments": [
+                {
+                    "duration": 0.8333333730697632,
+                    "endFrame": 20,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.004166722297668457,
+            "name": "Waiting_Card",
+            "segments": [
+                {
+                    "duration": 0.004166722297668457,
+                    "endFrame": 0,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.8666667938232422,
+            "name": "EnterLadderTop_Left",
+            "segments": [
+                {
+                    "duration": 1.8666667938232422,
+                    "endFrame": 56,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.9000000357627869,
+            "name": "EnterLadderBottom_Left",
+            "segments": [
+                {
+                    "duration": 0.9000000357627869,
+                    "endFrame": 27,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.7333333492279053,
+            "name": "ExitLadderBottom_Left",
+            "segments": [
+                {
+                    "duration": 0.7333333492279053,
+                    "endFrame": 22,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 2.066666841506958,
+            "name": "ExitLadderTop_Left",
+            "segments": [
+                {
+                    "duration": 2.066666841506958,
+                    "endFrame": 62,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.46666669845581057,
+            "name": "ExitLadderJumping_Left",
+            "segments": [
+                {
+                    "duration": 0.46666669845581057,
+                    "endFrame": 14,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 4.0,
+            "name": "Ladder_SlideDown",
+            "segments": [
+                {
+                    "duration": 4.0,
+                    "endFrame": 120,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.8333333730697632,
+            "name": "ClimbLadder_Right",
+            "segments": [
+                {
+                    "duration": 0.8333333730697632,
+                    "endFrame": 25,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.8333333730697632,
+            "name": "ClimbLadder_Left",
+            "segments": [
+                {
+                    "duration": 0.8333333730697632,
+                    "endFrame": 25,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 2.500000238418579,
+            "name": "IdleLadder_Left",
+            "segments": [
+                {
+                    "duration": 2.500000238418579,
+                    "endFrame": 75,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 2.500000238418579,
+            "name": "IdleLadder_Right",
+            "segments": [
+                {
+                    "duration": 2.500000238418579,
+                    "endFrame": 75,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.8333333730697632,
+            "name": "ClimbLadder_Left",
+            "segments": [
+                {
+                    "duration": 0.8333333730697632,
+                    "endFrame": 25,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.8333333730697632,
+            "name": "ClimbLadder_Right",
+            "segments": [
+                {
+                    "duration": 0.8333333730697632,
+                    "endFrame": 25,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.0416667461395264,
+            "name": "JumpOver",
+            "segments": [
+                {
+                    "duration": 1.0416667461395264,
+                    "endFrame": 25,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.25,
+            "name": "StepUp",
+            "segments": [
+                {
+                    "duration": 1.25,
+                    "endFrame": 30,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.2666666507720948,
+            "name": "ClimbUp",
+            "segments": [
+                {
+                    "duration": 1.2666666507720948,
+                    "endFrame": 30,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 0.7166666388511658,
+            "name": "Switch@Off",
+            "segments": [
+                {
+                    "duration": 0.7166666388511658,
+                    "endFrame": 42,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 0.7166666388511658,
+            "name": "Switch@Off",
+            "segments": [
+                {
+                    "duration": 0.7166666388511658,
+                    "endFrame": 42,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 2.0,
+            "name": "Crouch_Idle",
+            "segments": [
+                {
+                    "duration": 2.0,
+                    "endFrame": 60,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.933333396911621,
+            "name": "Crouch_Walk",
+            "segments": [
+                {
+                    "duration": 1.933333396911621,
+                    "endFrame": 58,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.3333333730697632,
+            "name": "Idle",
+            "segments": [
+                {
+                    "duration": 1.3333333730697632,
+                    "endFrame": 40,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 1.8333333730697632,
+            "name": "standing_idle",
+            "segments": [
+                {
+                    "duration": 1.8333333730697632,
+                    "endFrame": 110,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.8333333730697632,
+            "name": "Strafe2Hand_Idle",
+            "segments": [
+                {
+                    "duration": 1.8333333730697632,
+                    "endFrame": 55,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.0666667222976685,
+            "name": "WalkTurnLeft",
+            "segments": [
+                {
+                    "duration": 1.0666667222976685,
+                    "endFrame": 32,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.0,
+            "name": "Walk",
+            "segments": [
+                {
+                    "duration": 1.0,
+                    "endFrame": 30,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.0666667222976685,
+            "name": "WalkTurnRight",
+            "segments": [
+                {
+                    "duration": 1.0666667222976685,
+                    "endFrame": 32,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.6333333849906921,
+            "name": "RunTurnLeft",
+            "segments": [
+                {
+                    "duration": 0.6333333849906921,
+                    "endFrame": 19,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.6333333849906921,
+            "name": "Run",
+            "segments": [
+                {
+                    "duration": 0.6333333849906921,
+                    "endFrame": 19,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.6333333849906921,
+            "name": "RunTurnRight",
+            "segments": [
+                {
+                    "duration": 0.6333333849906921,
+                    "endFrame": 19,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.6333333849906921,
+            "name": "RunTurnLeft",
+            "segments": [
+                {
+                    "duration": 0.6333333849906921,
+                    "endFrame": 19,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.5200000405311585,
+            "name": "Sprint",
+            "segments": [
+                {
+                    "duration": 0.5200000405311585,
+                    "endFrame": 15,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.6333333849906921,
+            "name": "RunTurnRight",
+            "segments": [
+                {
+                    "duration": 0.6333333849906921,
+                    "endFrame": 19,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 2.0,
+            "name": "Crouch_Idle",
+            "segments": [
+                {
+                    "duration": 2.0,
+                    "endFrame": 60,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.933333396911621,
+            "name": "Crouch_Walk",
+            "segments": [
+                {
+                    "duration": 1.933333396911621,
+                    "endFrame": 58,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.7000000476837159,
+            "name": "Crouch_WalkBack",
+            "segments": [
+                {
+                    "duration": 1.7000000476837159,
+                    "endFrame": 51,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.7000000476837159,
+            "name": "Crouch_WalkBackRight",
+            "segments": [
+                {
+                    "duration": 1.7000000476837159,
+                    "endFrame": 51,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.7000000476837159,
+            "name": "Crouch_WalkLeft",
+            "segments": [
+                {
+                    "duration": 1.7000000476837159,
+                    "endFrame": 51,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.7000000476837159,
+            "name": "Crouch_WalkLeftForward",
+            "segments": [
+                {
+                    "duration": 1.7000000476837159,
+                    "endFrame": 51,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.7000000476837159,
+            "name": "Crouch_WalkLeft",
+            "segments": [
+                {
+                    "duration": 1.7000000476837159,
+                    "endFrame": 51,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.7000000476837159,
+            "name": "Crouch_WalkLeftForward",
+            "segments": [
+                {
+                    "duration": 1.7000000476837159,
+                    "endFrame": 51,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.7000000476837159,
+            "name": "Crouch_WalkBackRight",
+            "segments": [
+                {
+                    "duration": 1.7000000476837159,
+                    "endFrame": 51,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.3333333730697632,
+            "name": "Idle",
+            "segments": [
+                {
+                    "duration": 1.3333333730697632,
+                    "endFrame": 40,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.0,
+            "name": "Walk",
+            "segments": [
+                {
+                    "duration": 1.0,
+                    "endFrame": 30,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.133333444595337,
+            "name": "WalkBack",
+            "segments": [
+                {
+                    "duration": 1.133333444595337,
+                    "endFrame": 34,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.133333444595337,
+            "name": "WalkBackRight",
+            "segments": [
+                {
+                    "duration": 1.133333444595337,
+                    "endFrame": 34,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.133333444595337,
+            "name": "WalkBackRight",
+            "segments": [
+                {
+                    "duration": 1.133333444595337,
+                    "endFrame": 34,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.0,
+            "name": "WalkForwardRight",
+            "segments": [
+                {
+                    "duration": 1.0,
+                    "endFrame": 30,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.0,
+            "name": "WalkForwardRight",
+            "segments": [
+                {
+                    "duration": 1.0,
+                    "endFrame": 30,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.133333444595337,
+            "name": "WalkRight",
+            "segments": [
+                {
+                    "duration": 1.133333444595337,
+                    "endFrame": 34,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.133333444595337,
+            "name": "WalkRight",
+            "segments": [
+                {
+                    "duration": 1.133333444595337,
+                    "endFrame": 34,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.6333333849906921,
+            "name": "Run",
+            "segments": [
+                {
+                    "duration": 0.6333333849906921,
+                    "endFrame": 19,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.6666666865348816,
+            "name": "RunForwardRight",
+            "segments": [
+                {
+                    "duration": 0.6666666865348816,
+                    "endFrame": 20,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.6666666865348816,
+            "name": "RunForwardRight",
+            "segments": [
+                {
+                    "duration": 0.6666666865348816,
+                    "endFrame": 20,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.8000000715255737,
+            "name": "RunBack",
+            "segments": [
+                {
+                    "duration": 0.8000000715255737,
+                    "endFrame": 24,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.8000000715255737,
+            "name": "RunBackRight",
+            "segments": [
+                {
+                    "duration": 0.8000000715255737,
+                    "endFrame": 24,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.8000000715255737,
+            "name": "RunBackRight",
+            "segments": [
+                {
+                    "duration": 0.8000000715255737,
+                    "endFrame": 24,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.7000000476837158,
+            "name": "RunRight",
+            "segments": [
+                {
+                    "duration": 0.7000000476837158,
+                    "endFrame": 21,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.7000000476837158,
+            "name": "RunRight",
+            "segments": [
+                {
+                    "duration": 0.7000000476837158,
+                    "endFrame": 21,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.5200000405311585,
+            "name": "Sprint",
+            "segments": [
+                {
+                    "duration": 0.5200000405311585,
+                    "endFrame": 15,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 1.8333333730697632,
+            "name": "standing_idle",
+            "segments": [
+                {
+                    "duration": 1.8333333730697632,
+                    "endFrame": 110,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 1.3166667222976685,
+            "name": "standing_walk_forward",
+            "segments": [
+                {
+                    "duration": 1.3166667222976685,
+                    "endFrame": 79,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 1.350000023841858,
+            "name": "standing_walk_back",
+            "segments": [
+                {
+                    "duration": 1.350000023841858,
+                    "endFrame": 81,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 1.2166666984558106,
+            "name": "standing_walk_left",
+            "segments": [
+                {
+                    "duration": 1.2166666984558106,
+                    "endFrame": 73,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 1.2666667699813843,
+            "name": "standing_walk_right",
+            "segments": [
+                {
+                    "duration": 1.2666667699813843,
+                    "endFrame": 76,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.8333333730697632,
+            "name": "Strafe2Hand_Idle",
+            "segments": [
+                {
+                    "duration": 1.8333333730697632,
+                    "endFrame": 55,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.3333333730697632,
+            "name": "Strafe2Handl_walk_forward",
+            "segments": [
+                {
+                    "duration": 1.3333333730697632,
+                    "endFrame": 40,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.3333333730697632,
+            "name": "Strafe2Hand_walk_back",
+            "segments": [
+                {
+                    "duration": 1.3333333730697632,
+                    "endFrame": 40,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.2000000476837159,
+            "name": "Strafe2Hand_walk_left",
+            "segments": [
+                {
+                    "duration": 1.2000000476837159,
+                    "endFrame": 36,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.2666667699813843,
+            "name": "Strafe2Hand_walk_right",
+            "segments": [
+                {
+                    "duration": 1.2666667699813843,
+                    "endFrame": 38,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.6666666865348816,
+            "name": "LandSoft",
+            "segments": [
+                {
+                    "duration": 0.6666666865348816,
+                    "endFrame": 16,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.1666667461395264,
+            "name": "LandHigh",
+            "segments": [
+                {
+                    "duration": 1.1666667461395264,
+                    "endFrame": 28,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.44166669249534609,
+            "name": "JumpMove",
+            "segments": [
+                {
+                    "duration": 0.44166669249534609,
+                    "endFrame": 10,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.5833333730697632,
+            "name": "Jump",
+            "segments": [
+                {
+                    "duration": 0.5833333730697632,
+                    "endFrame": 14,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.6000000238418579,
+            "name": "Falling",
+            "segments": [
+                {
+                    "duration": 0.6000000238418579,
+                    "endFrame": 14,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.0166666507720948,
+            "name": "Sliding",
+            "segments": [
+                {
+                    "duration": 1.0166666507720948,
+                    "endFrame": 30,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.375,
+            "name": "Defense_Shield",
+            "segments": [
+                {
+                    "duration": 1.375,
+                    "endFrame": 33,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.375,
+            "name": "Defense_Shield",
+            "segments": [
+                {
+                    "duration": 1.375,
+                    "endFrame": 33,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.8333333730697632,
+            "name": "Defense_HoldingSword",
+            "segments": [
+                {
+                    "duration": 1.8333333730697632,
+                    "endFrame": 44,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.5833333730697632,
+            "name": "Defense_Unarmed",
+            "segments": [
+                {
+                    "duration": 1.5833333730697632,
+                    "endFrame": 38,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.9333333373069763,
+            "name": "Hit Small Right",
+            "segments": [
+                {
+                    "duration": 0.9333333373069763,
+                    "endFrame": 22,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.9333333373069763,
+            "name": "Hit Small Left",
+            "segments": [
+                {
+                    "duration": 0.9333333373069763,
+                    "endFrame": 22,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.9333333373069763,
+            "name": "Hit Small Front",
+            "segments": [
+                {
+                    "duration": 0.9333333373069763,
+                    "endFrame": 22,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.9666666984558106,
+            "name": "Hit Small Back",
+            "segments": [
+                {
+                    "duration": 0.9666666984558106,
+                    "endFrame": 23,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.7083333730697632,
+            "name": "Draw Weapon LowLeft",
+            "segments": [
+                {
+                    "duration": 0.7083333730697632,
+                    "endFrame": 17,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.7083333730697632,
+            "name": "Draw Weapon LowRight",
+            "segments": [
+                {
+                    "duration": 0.7083333730697632,
+                    "endFrame": 17,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.7083333730697632,
+            "name": "Draw Weapon HighLeft",
+            "segments": [
+                {
+                    "duration": 0.7083333730697632,
+                    "endFrame": 17,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.7083333730697632,
+            "name": "GetUpFromBelly",
+            "segments": [
+                {
+                    "duration": 1.7083333730697632,
+                    "endFrame": 41,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 2.0,
+            "name": "GetUpFromBack",
+            "segments": [
+                {
+                    "duration": 2.0,
+                    "endFrame": 48,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.7916667461395264,
+            "name": "Recoil_Hard",
+            "segments": [
+                {
+                    "duration": 1.7916667461395264,
+                    "endFrame": 43,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.0416666679084301,
+            "name": "Recoil_Low",
+            "segments": [
+                {
+                    "duration": 0.0416666679084301,
+                    "endFrame": 1,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.2083333432674408,
+            "name": "Recoil_Unarmed",
+            "segments": [
+                {
+                    "duration": 0.2083333432674408,
+                    "endFrame": 5,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.4166667461395264,
+            "name": "Hit Big Right",
+            "segments": [
+                {
+                    "duration": 1.4166667461395264,
+                    "endFrame": 34,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.375,
+            "name": "Hit Big Left",
+            "segments": [
+                {
+                    "duration": 1.375,
+                    "endFrame": 33,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.1666667461395264,
+            "name": "Hit Big Front",
+            "segments": [
+                {
+                    "duration": 1.1666667461395264,
+                    "endFrame": 28,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.1333333253860474,
+            "name": "Hit Big Back",
+            "segments": [
+                {
+                    "duration": 1.1333333253860474,
+                    "endFrame": 27,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 3.125,
+            "name": "Death",
+            "segments": [
+                {
+                    "duration": 3.125,
+                    "endFrame": 75,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.7083333730697632,
+            "name": "GetUpFromBelly",
+            "segments": [
+                {
+                    "duration": 1.7083333730697632,
+                    "endFrame": 41,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.875,
+            "name": "StrongAttack_PunchA",
+            "segments": [
+                {
+                    "duration": 0.875,
+                    "endFrame": 21,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.4583333432674408,
+            "name": "StrongAttack_PunchB",
+            "segments": [
+                {
+                    "duration": 0.4583333432674408,
+                    "endFrame": 11,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.75,
+            "name": "StrongAttack_PunchC",
+            "segments": [
+                {
+                    "duration": 0.75,
+                    "endFrame": 18,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 0.44999998807907107,
+            "name": "WeakAttack_UnarmedA_v3",
+            "segments": [
+                {
+                    "duration": 0.44999998807907107,
+                    "endFrame": 26,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 60.0,
+            "length": 0.44999998807907107,
+            "name": "WeakAttack_UnarmedB_v2",
+            "segments": [
+                {
+                    "duration": 0.44999998807907107,
+                    "endFrame": 26,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.2083333730697632,
+            "name": "WeakAttack_UnarmedC",
+            "segments": [
+                {
+                    "duration": 1.2083333730697632,
+                    "endFrame": 29,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.6000000238418579,
+            "name": "Attack2Hand_A",
+            "segments": [
+                {
+                    "duration": 0.6000000238418579,
+                    "endFrame": 18,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 0.9000000357627869,
+            "name": "Attack2Hand_B",
+            "segments": [
+                {
+                    "duration": 0.9000000357627869,
+                    "endFrame": 27,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 30.0,
+            "length": 1.8333333730697632,
+            "name": "Attack2Hand_C",
+            "segments": [
+                {
+                    "duration": 1.8333333730697632,
+                    "endFrame": 55,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.0,
+            "name": "WeakAttack_SwordA",
+            "segments": [
+                {
+                    "duration": 1.0,
+                    "endFrame": 24,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.7916666865348816,
+            "name": "WeakAttack_SwordB",
+            "segments": [
+                {
+                    "duration": 0.7916666865348816,
+                    "endFrame": 19,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.625,
+            "name": "WeakAttack_SwordC",
+            "segments": [
+                {
+                    "duration": 0.625,
+                    "endFrame": 15,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 1.0,
+            "name": "WeakAttack_SwordA",
+            "segments": [
+                {
+                    "duration": 1.0,
+                    "endFrame": 24,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.7916666865348816,
+            "name": "WeakAttack_SwordB",
+            "segments": [
+                {
+                    "duration": 0.7916666865348816,
+                    "endFrame": 19,
+                    "startFrame": 0
+                }
+            ]
+        },
+        {
+            "frameRate": 24.0,
+            "length": 0.625,
+            "name": "WeakAttack_SwordC",
+            "segments": [
+                {
+                    "duration": 0.625,
+                    "endFrame": 15,
+                    "startFrame": 0
+                }
+            ]
+        }
+    ],
     "parameters": [
         {
             "name": "InputHorizontal",
@@ -135,1484 +1613,6 @@
         {
             "name": "ResetState",
             "type": "Trigger"
-        }
-    ],
-    "clips": [
-        {
-            "name": "NewRollv2",
-            "length": 1.6666666269302369,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 49,
-                    "duration": 1.6666666269302369
-                }
-            ]
-        },
-        {
-            "name": "Pick_Down",
-            "length": 1.0416667461395264,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 25,
-                    "duration": 1.0416667461395264
-                }
-            ]
-        },
-        {
-            "name": "Pick_Mid",
-            "length": 1.0833333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 26,
-                    "duration": 1.0833333730697632
-                }
-            ]
-        },
-        {
-            "name": "Pick_Up",
-            "length": 1.0833333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 26,
-                    "duration": 1.0833333730697632
-                }
-            ]
-        },
-        {
-            "name": "OpenChest",
-            "length": 3.0,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 72,
-                    "duration": 3.0
-                }
-            ]
-        },
-        {
-            "name": "SlideForwardDown",
-            "length": 1.25,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 30,
-                    "duration": 1.25
-                }
-            ]
-        },
-        {
-            "name": "Pass_Card",
-            "length": 1.5,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 36,
-                    "duration": 1.5
-                }
-            ]
-        },
-        {
-            "name": "Put_Card_Full",
-            "length": 1.5,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 36,
-                    "duration": 1.5
-                }
-            ]
-        },
-        {
-            "name": "Press_Lever",
-            "length": 0.9666666984558106,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 23,
-                    "duration": 0.9666666984558106
-                }
-            ]
-        },
-        {
-            "name": "Put/Remove_Card",
-            "length": 0.8333333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 20,
-                    "duration": 0.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "Put/Remove_Card",
-            "length": 0.8333333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 20,
-                    "duration": 0.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "Waiting_Card",
-            "length": 0.004166722297668457,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 0,
-                    "duration": 0.004166722297668457
-                }
-            ]
-        },
-        {
-            "name": "EnterLadderTop_Left",
-            "length": 1.8666667938232422,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 56,
-                    "duration": 1.8666667938232422
-                }
-            ]
-        },
-        {
-            "name": "EnterLadderBottom_Left",
-            "length": 0.9000000357627869,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 27,
-                    "duration": 0.9000000357627869
-                }
-            ]
-        },
-        {
-            "name": "ExitLadderBottom_Left",
-            "length": 0.7333333492279053,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 22,
-                    "duration": 0.7333333492279053
-                }
-            ]
-        },
-        {
-            "name": "ExitLadderTop_Left",
-            "length": 2.066666841506958,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 62,
-                    "duration": 2.066666841506958
-                }
-            ]
-        },
-        {
-            "name": "ExitLadderJumping_Left",
-            "length": 0.46666669845581057,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 14,
-                    "duration": 0.46666669845581057
-                }
-            ]
-        },
-        {
-            "name": "Ladder_SlideDown",
-            "length": 4.0,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 120,
-                    "duration": 4.0
-                }
-            ]
-        },
-        {
-            "name": "ClimbLadder_Right",
-            "length": 0.8333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 25,
-                    "duration": 0.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "ClimbLadder_Left",
-            "length": 0.8333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 25,
-                    "duration": 0.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "IdleLadder_Left",
-            "length": 2.500000238418579,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 75,
-                    "duration": 2.500000238418579
-                }
-            ]
-        },
-        {
-            "name": "IdleLadder_Right",
-            "length": 2.500000238418579,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 75,
-                    "duration": 2.500000238418579
-                }
-            ]
-        },
-        {
-            "name": "ClimbLadder_Left",
-            "length": 0.8333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 25,
-                    "duration": 0.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "ClimbLadder_Right",
-            "length": 0.8333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 25,
-                    "duration": 0.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "JumpOver",
-            "length": 1.0416667461395264,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 25,
-                    "duration": 1.0416667461395264
-                }
-            ]
-        },
-        {
-            "name": "StepUp",
-            "length": 1.25,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 30,
-                    "duration": 1.25
-                }
-            ]
-        },
-        {
-            "name": "ClimbUp",
-            "length": 1.2666666507720948,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 30,
-                    "duration": 1.2666666507720948
-                }
-            ]
-        },
-        {
-            "name": "Switch@Off",
-            "length": 0.7166666388511658,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 42,
-                    "duration": 0.7166666388511658
-                }
-            ]
-        },
-        {
-            "name": "Switch@Off",
-            "length": 0.7166666388511658,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 42,
-                    "duration": 0.7166666388511658
-                }
-            ]
-        },
-        {
-            "name": "Crouch_Idle",
-            "length": 2.0,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 60,
-                    "duration": 2.0
-                }
-            ]
-        },
-        {
-            "name": "Crouch_Walk",
-            "length": 1.933333396911621,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 58,
-                    "duration": 1.933333396911621
-                }
-            ]
-        },
-        {
-            "name": "Idle",
-            "length": 1.3333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 40,
-                    "duration": 1.3333333730697632
-                }
-            ]
-        },
-        {
-            "name": "standing_idle",
-            "length": 1.8333333730697632,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 110,
-                    "duration": 1.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "Strafe2Hand_Idle",
-            "length": 1.8333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 55,
-                    "duration": 1.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "WalkTurnLeft",
-            "length": 1.0666667222976685,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 32,
-                    "duration": 1.0666667222976685
-                }
-            ]
-        },
-        {
-            "name": "Walk",
-            "length": 1.0,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 30,
-                    "duration": 1.0
-                }
-            ]
-        },
-        {
-            "name": "WalkTurnRight",
-            "length": 1.0666667222976685,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 32,
-                    "duration": 1.0666667222976685
-                }
-            ]
-        },
-        {
-            "name": "RunTurnLeft",
-            "length": 0.6333333849906921,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 19,
-                    "duration": 0.6333333849906921
-                }
-            ]
-        },
-        {
-            "name": "Run",
-            "length": 0.6333333849906921,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 19,
-                    "duration": 0.6333333849906921
-                }
-            ]
-        },
-        {
-            "name": "RunTurnRight",
-            "length": 0.6333333849906921,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 19,
-                    "duration": 0.6333333849906921
-                }
-            ]
-        },
-        {
-            "name": "RunTurnLeft",
-            "length": 0.6333333849906921,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 19,
-                    "duration": 0.6333333849906921
-                }
-            ]
-        },
-        {
-            "name": "Sprint",
-            "length": 0.5200000405311585,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 15,
-                    "duration": 0.5200000405311585
-                }
-            ]
-        },
-        {
-            "name": "RunTurnRight",
-            "length": 0.6333333849906921,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 19,
-                    "duration": 0.6333333849906921
-                }
-            ]
-        },
-        {
-            "name": "Crouch_Idle",
-            "length": 2.0,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 60,
-                    "duration": 2.0
-                }
-            ]
-        },
-        {
-            "name": "Crouch_Walk",
-            "length": 1.933333396911621,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 58,
-                    "duration": 1.933333396911621
-                }
-            ]
-        },
-        {
-            "name": "Crouch_WalkBack",
-            "length": 1.7000000476837159,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 51,
-                    "duration": 1.7000000476837159
-                }
-            ]
-        },
-        {
-            "name": "Crouch_WalkBackRight",
-            "length": 1.7000000476837159,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 51,
-                    "duration": 1.7000000476837159
-                }
-            ]
-        },
-        {
-            "name": "Crouch_WalkLeft",
-            "length": 1.7000000476837159,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 51,
-                    "duration": 1.7000000476837159
-                }
-            ]
-        },
-        {
-            "name": "Crouch_WalkLeftForward",
-            "length": 1.7000000476837159,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 51,
-                    "duration": 1.7000000476837159
-                }
-            ]
-        },
-        {
-            "name": "Crouch_WalkLeft",
-            "length": 1.7000000476837159,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 51,
-                    "duration": 1.7000000476837159
-                }
-            ]
-        },
-        {
-            "name": "Crouch_WalkLeftForward",
-            "length": 1.7000000476837159,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 51,
-                    "duration": 1.7000000476837159
-                }
-            ]
-        },
-        {
-            "name": "Crouch_WalkBackRight",
-            "length": 1.7000000476837159,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 51,
-                    "duration": 1.7000000476837159
-                }
-            ]
-        },
-        {
-            "name": "Idle",
-            "length": 1.3333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 40,
-                    "duration": 1.3333333730697632
-                }
-            ]
-        },
-        {
-            "name": "Walk",
-            "length": 1.0,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 30,
-                    "duration": 1.0
-                }
-            ]
-        },
-        {
-            "name": "WalkBack",
-            "length": 1.133333444595337,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 34,
-                    "duration": 1.133333444595337
-                }
-            ]
-        },
-        {
-            "name": "WalkBackRight",
-            "length": 1.133333444595337,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 34,
-                    "duration": 1.133333444595337
-                }
-            ]
-        },
-        {
-            "name": "WalkBackRight",
-            "length": 1.133333444595337,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 34,
-                    "duration": 1.133333444595337
-                }
-            ]
-        },
-        {
-            "name": "WalkForwardRight",
-            "length": 1.0,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 30,
-                    "duration": 1.0
-                }
-            ]
-        },
-        {
-            "name": "WalkForwardRight",
-            "length": 1.0,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 30,
-                    "duration": 1.0
-                }
-            ]
-        },
-        {
-            "name": "WalkRight",
-            "length": 1.133333444595337,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 34,
-                    "duration": 1.133333444595337
-                }
-            ]
-        },
-        {
-            "name": "WalkRight",
-            "length": 1.133333444595337,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 34,
-                    "duration": 1.133333444595337
-                }
-            ]
-        },
-        {
-            "name": "Run",
-            "length": 0.6333333849906921,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 19,
-                    "duration": 0.6333333849906921
-                }
-            ]
-        },
-        {
-            "name": "RunForwardRight",
-            "length": 0.6666666865348816,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 20,
-                    "duration": 0.6666666865348816
-                }
-            ]
-        },
-        {
-            "name": "RunForwardRight",
-            "length": 0.6666666865348816,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 20,
-                    "duration": 0.6666666865348816
-                }
-            ]
-        },
-        {
-            "name": "RunBack",
-            "length": 0.8000000715255737,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 24,
-                    "duration": 0.8000000715255737
-                }
-            ]
-        },
-        {
-            "name": "RunBackRight",
-            "length": 0.8000000715255737,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 24,
-                    "duration": 0.8000000715255737
-                }
-            ]
-        },
-        {
-            "name": "RunBackRight",
-            "length": 0.8000000715255737,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 24,
-                    "duration": 0.8000000715255737
-                }
-            ]
-        },
-        {
-            "name": "RunRight",
-            "length": 0.7000000476837158,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 21,
-                    "duration": 0.7000000476837158
-                }
-            ]
-        },
-        {
-            "name": "RunRight",
-            "length": 0.7000000476837158,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 21,
-                    "duration": 0.7000000476837158
-                }
-            ]
-        },
-        {
-            "name": "Sprint",
-            "length": 0.5200000405311585,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 15,
-                    "duration": 0.5200000405311585
-                }
-            ]
-        },
-        {
-            "name": "standing_idle",
-            "length": 1.8333333730697632,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 110,
-                    "duration": 1.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "standing_walk_forward",
-            "length": 1.3166667222976685,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 79,
-                    "duration": 1.3166667222976685
-                }
-            ]
-        },
-        {
-            "name": "standing_walk_back",
-            "length": 1.350000023841858,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 81,
-                    "duration": 1.350000023841858
-                }
-            ]
-        },
-        {
-            "name": "standing_walk_left",
-            "length": 1.2166666984558106,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 73,
-                    "duration": 1.2166666984558106
-                }
-            ]
-        },
-        {
-            "name": "standing_walk_right",
-            "length": 1.2666667699813843,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 76,
-                    "duration": 1.2666667699813843
-                }
-            ]
-        },
-        {
-            "name": "Strafe2Hand_Idle",
-            "length": 1.8333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 55,
-                    "duration": 1.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "Strafe2Handl_walk_forward",
-            "length": 1.3333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 40,
-                    "duration": 1.3333333730697632
-                }
-            ]
-        },
-        {
-            "name": "Strafe2Hand_walk_back",
-            "length": 1.3333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 40,
-                    "duration": 1.3333333730697632
-                }
-            ]
-        },
-        {
-            "name": "Strafe2Hand_walk_left",
-            "length": 1.2000000476837159,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 36,
-                    "duration": 1.2000000476837159
-                }
-            ]
-        },
-        {
-            "name": "Strafe2Hand_walk_right",
-            "length": 1.2666667699813843,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 38,
-                    "duration": 1.2666667699813843
-                }
-            ]
-        },
-        {
-            "name": "LandSoft",
-            "length": 0.6666666865348816,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 16,
-                    "duration": 0.6666666865348816
-                }
-            ]
-        },
-        {
-            "name": "LandHigh",
-            "length": 1.1666667461395264,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 28,
-                    "duration": 1.1666667461395264
-                }
-            ]
-        },
-        {
-            "name": "JumpMove",
-            "length": 0.44166669249534609,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 10,
-                    "duration": 0.44166669249534609
-                }
-            ]
-        },
-        {
-            "name": "Jump",
-            "length": 0.5833333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 14,
-                    "duration": 0.5833333730697632
-                }
-            ]
-        },
-        {
-            "name": "Falling",
-            "length": 0.6000000238418579,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 14,
-                    "duration": 0.6000000238418579
-                }
-            ]
-        },
-        {
-            "name": "Sliding",
-            "length": 1.0166666507720948,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 30,
-                    "duration": 1.0166666507720948
-                }
-            ]
-        },
-        {
-            "name": "Defense_Shield",
-            "length": 1.375,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 33,
-                    "duration": 1.375
-                }
-            ]
-        },
-        {
-            "name": "Defense_Shield",
-            "length": 1.375,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 33,
-                    "duration": 1.375
-                }
-            ]
-        },
-        {
-            "name": "Defense_HoldingSword",
-            "length": 1.8333333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 44,
-                    "duration": 1.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "Defense_Unarmed",
-            "length": 1.5833333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 38,
-                    "duration": 1.5833333730697632
-                }
-            ]
-        },
-        {
-            "name": "Hit Small Right",
-            "length": 0.9333333373069763,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 22,
-                    "duration": 0.9333333373069763
-                }
-            ]
-        },
-        {
-            "name": "Hit Small Left",
-            "length": 0.9333333373069763,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 22,
-                    "duration": 0.9333333373069763
-                }
-            ]
-        },
-        {
-            "name": "Hit Small Front",
-            "length": 0.9333333373069763,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 22,
-                    "duration": 0.9333333373069763
-                }
-            ]
-        },
-        {
-            "name": "Hit Small Back",
-            "length": 0.9666666984558106,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 23,
-                    "duration": 0.9666666984558106
-                }
-            ]
-        },
-        {
-            "name": "Draw Weapon LowLeft",
-            "length": 0.7083333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 17,
-                    "duration": 0.7083333730697632
-                }
-            ]
-        },
-        {
-            "name": "Draw Weapon LowRight",
-            "length": 0.7083333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 17,
-                    "duration": 0.7083333730697632
-                }
-            ]
-        },
-        {
-            "name": "Draw Weapon HighLeft",
-            "length": 0.7083333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 17,
-                    "duration": 0.7083333730697632
-                }
-            ]
-        },
-        {
-            "name": "GetUpFromBelly",
-            "length": 1.7083333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 41,
-                    "duration": 1.7083333730697632
-                }
-            ]
-        },
-        {
-            "name": "GetUpFromBack",
-            "length": 2.0,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 48,
-                    "duration": 2.0
-                }
-            ]
-        },
-        {
-            "name": "Recoil_Hard",
-            "length": 1.7916667461395264,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 43,
-                    "duration": 1.7916667461395264
-                }
-            ]
-        },
-        {
-            "name": "Recoil_Low",
-            "length": 0.0416666679084301,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 1,
-                    "duration": 0.0416666679084301
-                }
-            ]
-        },
-        {
-            "name": "Recoil_Unarmed",
-            "length": 0.2083333432674408,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 5,
-                    "duration": 0.2083333432674408
-                }
-            ]
-        },
-        {
-            "name": "Hit Big Right",
-            "length": 1.4166667461395264,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 34,
-                    "duration": 1.4166667461395264
-                }
-            ]
-        },
-        {
-            "name": "Hit Big Left",
-            "length": 1.375,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 33,
-                    "duration": 1.375
-                }
-            ]
-        },
-        {
-            "name": "Hit Big Front",
-            "length": 1.1666667461395264,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 28,
-                    "duration": 1.1666667461395264
-                }
-            ]
-        },
-        {
-            "name": "Hit Big Back",
-            "length": 1.1333333253860474,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 27,
-                    "duration": 1.1333333253860474
-                }
-            ]
-        },
-        {
-            "name": "Death",
-            "length": 3.125,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 75,
-                    "duration": 3.125
-                }
-            ]
-        },
-        {
-            "name": "GetUpFromBelly",
-            "length": 1.7083333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 41,
-                    "duration": 1.7083333730697632
-                }
-            ]
-        },
-        {
-            "name": "StrongAttack_PunchA",
-            "length": 0.875,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 21,
-                    "duration": 0.875
-                }
-            ]
-        },
-        {
-            "name": "StrongAttack_PunchB",
-            "length": 0.4583333432674408,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 11,
-                    "duration": 0.4583333432674408
-                }
-            ]
-        },
-        {
-            "name": "StrongAttack_PunchC",
-            "length": 0.75,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 18,
-                    "duration": 0.75
-                }
-            ]
-        },
-        {
-            "name": "WeakAttack_UnarmedA_v3",
-            "length": 0.44999998807907107,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 26,
-                    "duration": 0.44999998807907107
-                }
-            ]
-        },
-        {
-            "name": "WeakAttack_UnarmedB_v2",
-            "length": 0.44999998807907107,
-            "frameRate": 60.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 26,
-                    "duration": 0.44999998807907107
-                }
-            ]
-        },
-        {
-            "name": "WeakAttack_UnarmedC",
-            "length": 1.2083333730697632,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 29,
-                    "duration": 1.2083333730697632
-                }
-            ]
-        },
-        {
-            "name": "Attack2Hand_A",
-            "length": 0.6000000238418579,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 18,
-                    "duration": 0.6000000238418579
-                }
-            ]
-        },
-        {
-            "name": "Attack2Hand_B",
-            "length": 0.9000000357627869,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 27,
-                    "duration": 0.9000000357627869
-                }
-            ]
-        },
-        {
-            "name": "Attack2Hand_C",
-            "length": 1.8333333730697632,
-            "frameRate": 30.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 55,
-                    "duration": 1.8333333730697632
-                }
-            ]
-        },
-        {
-            "name": "WeakAttack_SwordA",
-            "length": 1.0,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 24,
-                    "duration": 1.0
-                }
-            ]
-        },
-        {
-            "name": "WeakAttack_SwordB",
-            "length": 0.7916666865348816,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 19,
-                    "duration": 0.7916666865348816
-                }
-            ]
-        },
-        {
-            "name": "WeakAttack_SwordC",
-            "length": 0.625,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 15,
-                    "duration": 0.625
-                }
-            ]
-        },
-        {
-            "name": "WeakAttack_SwordA",
-            "length": 1.0,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 24,
-                    "duration": 1.0
-                }
-            ]
-        },
-        {
-            "name": "WeakAttack_SwordB",
-            "length": 0.7916666865348816,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 19,
-                    "duration": 0.7916666865348816
-                }
-            ]
-        },
-        {
-            "name": "WeakAttack_SwordC",
-            "length": 0.625,
-            "frameRate": 24.0,
-            "segments": [
-                {
-                    "startFrame": 0,
-                    "endFrame": 15,
-                    "duration": 0.625
-                }
-            ]
         }
     ]
 }
