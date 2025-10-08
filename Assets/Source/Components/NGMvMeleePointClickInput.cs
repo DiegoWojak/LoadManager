@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Invector.vCharacterController.PointClick;
 using UnityEngine;
 
@@ -23,47 +24,31 @@ public class NGMvMeleePointClickInput : vMeleePointClickInput
             if (meleeManager != null)
             {
                 // Obtener el nombre del motion actual (ejemplo: SwordAttack, WeakAttack_SwordA, etc.)
-                string motionName = GetCurrentAttackMotion();
-                if (combatAnimationManager != null && !string.IsNullOrEmpty(motionName))
+                var motions = GetCurrentAttackMotion();
+                if (combatAnimationManager != null)
                 {
-                    float speed = GetSpeedForAttack();
-                    // Asume que el Animator tiene un parámetro "AttackSpeed" y el AnimatorState lo usa
-                    animator.SetFloat("AttackSpeed", speed);
+                    combatAnimationManager.SaveMotionInLastUsed(motions);
+                    // Asume que  el Animator tiene un parámetro "AttackSpeed" y el AnimatorState lo usa
+
                 }
                 TriggerAttack();
             }
         }
     }
 
+
     // Método para obtener el nombre del motion actual (debes adaptar esto a tu lógica de ataque)
-    private string GetCurrentAttackMotion()
+    private Dictionary<string, StateData> GetCurrentAttackMotion()
     {
         if (meleeManager != null && combatAnimationManager != null)
         {
-            int attackID = meleeManager.GetAttackID(); //unarmed 0 sword 1 random 2 twohander 4 para weakattacks
-            string attackPowerType = GetPowerType(); //WeakAttack // StrongAttack // etc.
-            string attackWeaponType = GetAttackType(); // ShortKatana // LongKatana // TwoHander // Unarmed // etc.
-            string motion = combatAnimationManager.GetMotionForAttack(attackID, attackPowerType, attackWeaponType);
-
-            return motion;
-        }
-        return "";
-    }
-
-    private float GetSpeedForAttack()
-    {
-        if (meleeManager != null && combatAnimationManager != null)
-        {
-
             int attackID = meleeManager.GetAttackID(); //unarmed 0 sword 1 random 2 twohander 4 para weakattacks
             string attackPowerType = GetPowerType(); //WeakAttack // StrongAttack // etc.
             string attackWeaponType = GetAttackType(); // ShortKatana // LongKatana // TwoHander // Unarmed // etc.
             
-            float speed = combatAnimationManager.GetSpeedForAttack(attackID, attackPowerType, attackWeaponType);
-
-            return speed;
+            return combatAnimationManager.GetMotionForAttack(attackID, attackPowerType, attackWeaponType);
         }
-        return 1.0f;
+        return null;
     }
 
     // Ejemplo de método para obtener el tipo de ataque (debes adaptar según tu lógica)

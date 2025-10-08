@@ -217,7 +217,7 @@
                         {
                             "name": "A",
                             "motion": "WeakAttack_SwordA",
-                            "speed": 1.0,
+                            "speed": 0.9,
                             "behaviours": [
                                 "vMeleeAttackControl",
                                 "vTriggerSoundByState",
@@ -230,7 +230,7 @@
                         {
                             "name": "B",
                             "motion": "WeakAttack_SwordB",
-                            "speed": 0.5,
+                            "speed": 1.4,
                             "behaviours": [
                                 "vMeleeAttackControl",
                                 "vTriggerSoundByState",
@@ -243,7 +243,7 @@
                         {
                             "name": "C",
                             "motion": "WeakAttack_SwordC",
-                            "speed": 1.0,
+                            "speed": 1.9,
                             "behaviours": [
                                 "vMeleeAttackControl",
                                 "vTriggerSoundByState",

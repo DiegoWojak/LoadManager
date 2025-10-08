@@ -1,19 +1,31 @@
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO;
+
 using System;
 
 public class NGMCombatAnimationManager : MonoBehaviour
 {
+    public static NGMCombatAnimationManager Instance { get; private set; }
+
+    // Última configuración de ataque usada
+    public string LastPowerType { get; private set; }
+    public string LastWeaponType { get; private set; }
+
     [Header("JSON Configuration")]
     [SerializeField] private TextAsset animatorJsonFile;
-    
+
     private AnimatorData animatorData;
     private Dictionary<string, Dictionary<string, Dictionary<string, StateData>>> animationCache;
 
 
     void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+            return;
+        }
+        Instance = this;
         LoadAnimatorData();
         BuildAnimationCache();
     }
@@ -27,7 +39,7 @@ public class NGMCombatAnimationManager : MonoBehaviour
         foreach (var powerTypeSubMachine in animatorData.subStateMachines)
         {
             string powerType = powerTypeSubMachine.name; // "StrongAttacks", "WeakAttacks", "Null"
-            
+
             if (!animationCache.ContainsKey(powerType))
             {
                 animationCache[powerType] = new Dictionary<string, Dictionary<string, StateData>>();
@@ -36,7 +48,7 @@ public class NGMCombatAnimationManager : MonoBehaviour
             foreach (var weaponTypeSubMachine in powerTypeSubMachine.subStateMachines)
             {
                 string weaponType = weaponTypeSubMachine.name; // "Unarmed", "SwordAttack", etc.
-                
+
                 if (!animationCache[powerType].ContainsKey(weaponType))
                 {
                     animationCache[powerType][weaponType] = new Dictionary<string, StateData>();
@@ -50,7 +62,7 @@ public class NGMCombatAnimationManager : MonoBehaviour
         }
 
         Debug.Log($"Animation cache built with {animationCache.Count} power types");
-        
+
         // Log para debug - ver qué se cargó
         foreach (var powerType in animationCache.Keys)
         {
@@ -74,56 +86,15 @@ public class NGMCombatAnimationManager : MonoBehaviour
         }
     }
 
-    public string GetMotionForAttack(int attackID, string powerType, string weaponType)
+    public Dictionary<string, StateData> GetMotionForAttack(int attackID, string powerType, string weaponType)
     {
-        StateData state = GetStateData(attackID, powerType, weaponType);
-        return state != null ? state.motion : "";
+        var state = GetStateData(attackID, powerType, weaponType);
+        return state != null ? state : null;
     }
 
-    /// <summary>
-    /// Obtiene la velocidad de un ataque específico
-    /// </summary>
-    public float GetSpeedForAttack(int attackID, string powerType, string weaponType)
-    {
-        StateData state = GetStateData(attackID, powerType, weaponType);
-        return state != null ? state.speed : 1.0f;
-    }
 
-    /// <summary>
-    /// Obtiene los behaviours de un ataque específico
-    /// </summary>
-    public List<string> GetBehavioursForAttack(int attackID, string powerType, string weaponType)
+    public Dictionary<string, StateData> GetStateData(int attackID, string powerType, string weaponType)
     {
-        StateData state = GetStateData(attackID, powerType, weaponType);
-        return state != null ? state.behaviours : new List<string>();
-    }
-
-    /// <summary>
-    /// Obtiene las transiciones disponibles de un ataque
-    /// </summary>
-    public List<string> GetTransitionsForAttack(int attackID, string powerType, string weaponType)
-    {
-        StateData state = GetStateData(attackID, powerType, weaponType);
-        return state != null ? state.transitions : new List<string>();
-    }
-
-    /// <summary>
-    /// Verifica si un ataque tiene transición al siguiente
-    /// </summary>
-    public bool HasNextAttack(int attackID, string powerType, string weaponType)
-    {
-        StateData state = GetStateData(attackID, powerType, weaponType);
-        return state != null && state.transitions.Count > 0;
-    }
-
-    /// <summary>
-    /// Obtiene el StateData completo
-    /// </summary>
-    public StateData GetStateData(int attackID, string powerType, string weaponType)
-    {
-        // Convierte attackID a nombre de estado (0=A, 1=B, 2=C)
-        string stateName = GetStateNameFromID(attackID);
-
         if (animationCache == null)
         {
             Debug.LogError("Animation cache not initialized!");
@@ -131,13 +102,12 @@ public class NGMCombatAnimationManager : MonoBehaviour
         }
 
         if (animationCache.ContainsKey(powerType) &&
-            animationCache[powerType].ContainsKey(weaponType) &&
-            animationCache[powerType][weaponType].ContainsKey(stateName))
+            animationCache[powerType].ContainsKey(weaponType))
         {
-            return animationCache[powerType][weaponType][stateName];
+            return animationCache[powerType][weaponType];
         }
 
-        Debug.LogWarning($"State not found: {powerType}/{weaponType}/{stateName}");
+        Debug.LogWarning($"State not found: {powerType}/{weaponType}");
         return null;
     }
 
@@ -146,7 +116,7 @@ public class NGMCombatAnimationManager : MonoBehaviour
     /// </summary>
     public Dictionary<string, StateData> GetAllStatesForWeapon(string powerType, string weaponType)
     {
-        if (animationCache.ContainsKey(powerType) && 
+        if (animationCache.ContainsKey(powerType) &&
             animationCache[powerType].ContainsKey(weaponType))
         {
             return animationCache[powerType][weaponType];
@@ -171,16 +141,52 @@ public class NGMCombatAnimationManager : MonoBehaviour
     /// <summary>
     /// Obtiene información completa de un ataque en formato legible
     /// </summary>
-    public string GetAttackInfo(int attackID, string powerType, string weaponType)
+    
+    public float GetAttackSpeed(AnimatorStateInfo stateInfo)
     {
-        StateData state = GetStateData(attackID, powerType, weaponType);
-        if (state == null) return "Attack not found";
+        int index = stateInfo.IsName("B") ? 1 :
+                    stateInfo.IsName("A") ? 0 :
+                    stateInfo.IsName("C") ? 2 : -1;
 
-        return $"Attack: {powerType}/{weaponType}/{state.name}\n" +
-               $"Motion: {state.motion}\n" +
-               $"Speed: {state.speed}\n" +
-               $"Behaviours: {string.Join(", ", state.behaviours)}\n" +
-               $"Transitions: {string.Join(", ", state.transitions)}";
+        Debug.Log($"Attack speed for {index}");
+
+        if (LastUsedMotions == null || index == -1) return 1.0f;
+        if (LastUsedMotions.ContainsKey(index))
+            return LastUsedMotions[index].speed;
+        return 1.0f;
+    }
+    
+    Dictionary<int, StateData> LastUsedMotions = null;
+    public void SaveMotionInLastUsed(Dictionary<string, StateData> states)
+    {
+        if (states == null || states.Count == 0)
+        {
+            LastUsedMotions = null;
+            return;
+        }
+
+        LastUsedMotions = new Dictionary<int, StateData>();
+        foreach (var kv in states)
+        {
+            int idx = StateNameToIndex(kv.Key);
+            LastUsedMotions[idx] = kv.Value;
+        }
+    }
+
+    private int StateNameToIndex(string name)
+    {
+        if (string.IsNullOrEmpty(name)) return 0;
+        switch (name)
+        {
+            case "A": return 0;
+            case "B": return 1;
+            case "C": return 2;
+            default:
+                if (name.StartsWith("A")) return 0;
+                if (name.StartsWith("B")) return 1;
+                if (name.StartsWith("C")) return 2;
+                return 0;
+        }
     }
 }
 
