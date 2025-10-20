@@ -80,7 +80,7 @@ namespace Assets.Source
 #if UNITY_EDITOR
             Debug.Log(messasge);
 #endif
-            loadingVisualSetup.OnLoaded();
+            //loadingVisualSetup.OnLoaded();
             isEverythingLoaded = true;
             OnEverythingLoaded?.Invoke();
         }
@@ -106,7 +106,7 @@ namespace Assets.Source
             }
 
             Post?.Invoke();
-            loadingVisualSetup.LoadingPage.SetActive(false);
+            loadingVisualSetup?.LoadingPage?.SetActive(false);
         }
     }
 
@@ -131,7 +131,7 @@ namespace Assets.Source
 
         public void OnLoaded()
         {
-            LoadingPage.SetActive(false);
+            LoadingPage?.SetActive(false);
         }
     }
 }

@@ -2,11 +2,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using System;
+using Assets.Source;
 
-public class NGMCombatAnimationManager : MonoBehaviour
+public class NGMCombatAnimationManager : LoaderBase<NGMCombatAnimationManager>
 {
-    public static NGMCombatAnimationManager Instance { get; private set; }
-
     // Última configuración de ataque usada
     public string LastPowerType { get; private set; }
     public string LastWeaponType { get; private set; }
@@ -17,17 +16,12 @@ public class NGMCombatAnimationManager : MonoBehaviour
     private AnimatorData animatorData;
     private Dictionary<string, Dictionary<string, Dictionary<string, StateData>>> animationCache;
 
-
-    void Awake()
+    public override void Init()
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(this);
-            return;
-        }
-        Instance = this;
+        base.Init();
         LoadAnimatorData();
         BuildAnimationCache();
+        isLoaded = true;
     }
 
     private void BuildAnimationCache()
@@ -141,7 +135,7 @@ public class NGMCombatAnimationManager : MonoBehaviour
     /// <summary>
     /// Obtiene información completa de un ataque en formato legible
     /// </summary>
-    
+
     public float GetAttackSpeed(AnimatorStateInfo stateInfo)
     {
         int index = stateInfo.IsName("B") ? 1 :
@@ -155,7 +149,7 @@ public class NGMCombatAnimationManager : MonoBehaviour
             return LastUsedMotions[index].speed;
         return 1.0f;
     }
-    
+
     Dictionary<int, StateData> LastUsedMotions = null;
     public void SaveMotionInLastUsed(Dictionary<string, StateData> states)
     {

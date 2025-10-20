@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/Workspace/Typescript/chat-server/src/rooms/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
