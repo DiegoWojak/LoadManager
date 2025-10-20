@@ -7,7 +7,7 @@ public class NetworkedPlayer : MonoBehaviour
 {
     [Tooltip("Mark this on the local controlled character.")]
     public bool isLocal;
-
+    //
     private Vector3 targetPosition;
     private float lerpSpeed = 10f;
     private float lastTimestamp;
